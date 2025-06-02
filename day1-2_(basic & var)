@@ -1,75 +1,8 @@
-//Q1 Declare and Print Integer Variable
+//1. Declare and Print Integer Variable
 #include <stdio.h>
+
 int main() {
-    int number = 10;
-    printf("The value of the integer is: %d\n", number);
-    return 0;
-}
-//Q2 Add Two Float Numbers
-#include <stdio.h>
-int main() {
-    float a = 5.5, b = 3.2;
-    float sum = a + b;
-    printf("Sum of %f and %f is %f\n", a, b, sum);
-    return 0;
-}
-// Q3. Find Size of Data Types
-#include <stdio.h>
-int main() {
-    printf("Size of int: %zu bytes\n", sizeof(int));
-    printf("Size of float: %zu bytes\n", sizeof(float));
-    printf("Size of double: %zu bytes\n", sizeof(double));
-    printf("Size of char: %zu bytes\n", sizeof(char));
-    return 0;
-}
-//Q4. Swap Two Variables Using a Temporary Variable
-#include <stdio.h>
-int main() {
-    int a = 5, b = 10, temp;
-    temp = a;
-    a = b;
-    b = temp;
-    printf("After swapping: a = %d, b = %d\n", a, b);
-    return 0;
-}
-//Q5. Swap Two Variables Without Using a Temporary Variable
-#include <stdio.h>
-int main() {
-    int a = 5, b = 10;
-    a = a + b;
-    b = a - b;
-    a = a - b;
-    printf("After swapping: a = %d, b = %d\n", a, b);
-    return 0;
-}
-//Q6Display ASCII Value of a Character
-#include <stdio.h>
-int main() {
-    char ch = 'A';
-    printf("The ASCII value of %c is %d\n", ch, ch);
-    return 0;
-}
-//Q7 Calculate Simple Interest
-#include <stdio.h>
-int main() {
-    float principal = 1000.0, rate = 5.0, time = 2.0;
-    float SI = (principal * rate * time) / 100;
-    printf("Simple Interest = %.2f\n", SI);
-    return 0;
-}
-//Q8 Multiply Two Integers
-#include <stdio.h>
-int main() {
-    int a = 6, b = 7;
-    int product = a * b;
-    printf("Product of %d and %d is %d\n", a, b, product);
-    return 0;
-}
-//Q9 Find the Average of Three Numbers
-#include <stdio.h>
-int main() {
-    float a = 10.0, b = 20.0, c = 30.0;
-    float average = (a + b + c) / 3;
-    printf("Average = %.2f\n", average);
+    int num = 10;
+    printf("The value of num is: %d\n", num);
     return 0;
 }
