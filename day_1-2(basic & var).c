@@ -5,8 +5,7 @@ int main() {
     printf("1. Integer value: %d\n\n", num);
     // 2. Add Two Float Numbers
     float f1, f2;
-    printf("2. Enter two float numbers: ");
-    scanf("%f %f", &f1, &f2);
+    f1=3.6,f2=4.3;
     printf("Sum = %.2f\n\n", f1 + f2);
     // 3. Find Size of Data Types
     printf("3. Sizes (in bytes): int=%zu, float=%zu, double=%zu, char=%zu\n\n",
